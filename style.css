@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(31, 31, 31);
+    height:fit-content;
+    overflow-x:hidden;
+}
+
+.poster{
+    width: 100vw;
+    height: 95vh;
+    background: url("images/gamePoster.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.intro_container{
+    width: 80%;
+    margin: 1px auto;
+    position:relative;
+    top: -250px;
+    background: rgba(37, 37, 37, 0.904);
+    display: flex;
+    padding-bottom:30px;
+
+}
+
+.intro_details{
+    width: 50%;
+
+}
+
+.intro_heading{
+    width: fit-content;
+    margin:10px auto;
+    color: rgb(211, 57, 36);
+    font-weight: bolder;
+    font-size: 33px;
+    font-family: 'Righteous', cursive;
+
+}
+
+.intro_para{
+    width: 80%;
+    margin: 10px auto;
+    color: rgb(172, 172, 172);
+padding: 10px;
+}
+
+
+.check_out{
+    color :white;
+    margin: 10px auto;
+    width: 60%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+
+}
+
+.trailer{
+    width: 50%;
+    height: 250px;
+}
+
+.game_details{
+    position: relative;
+    top: -220px;
+    width: 80%;
+    margin: 1px auto;
+    color: white;
+}
+
+.game_overview{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+font-family: 'Manrope', sans-serif;
+
+}
+
+.points_to_note{
+display: flex;
+padding: 10px;
+}
+
+.points_left{
+    width: 50%;
+    margin-right: 20px;
+font-family: 'Manrope', sans-serif;
+
+}
+
+.points_right{
+    width: 50%;
+font-family: 'Manrope', sans-serif;
+
+    
+}
+
+.points_left ul li{
+    list-style: square;
+    font-size: 17px;
+    padding: 20px;
+}
+
+.points_right ul li{
+    list-style: square;
+    font-size: 17px;
+    padding: 20px;
+}
+
+
+
+.slider_container{
+    position: relative;
+    width: 100vw;
+    top: -200px;
+
+}
+
+
+.slider_heading{
+    border-bottom: 1px solid red;
+    color: red;
+    width: fit-content;
+    margin: 10px auto;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-shadow: 4px 4px 2px rgba(202, 53, 53, 0.6);
+    font-family: 'Righteous', cursive;
+}
+
+.main-carousel {
+    height:fit-content;
+    width: 60vw;
+    overflow: hidden;
+    margin: 2px auto;
+    box-shadow: 2px 3px 26px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 3px 26px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 26px 0px rgba(0,0,0,0.75);
+  }
+  
+  .carousel-cell {
+    width: 100%;
+    height: 450px;
+    margin-right: 10px;
+    /* background:url("images/background2.jpg"); */
+    background: rgb(71, 71, 71);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  .carousel-cell img{
+      width: 100%;
+      height: 400px;
+      position: absolute;
+      left: 0;
+      right: 0;
+
+  }
+  
+
+  .quotation{
+      width: fit-content;
+      margin: 30px auto;
+      font-size: 27px;
+      color:rgb(218, 218, 218);
+      word-spacing: 3px;
+      letter-spacing: 1px;
+      text-shadow: 4px 4px 2px rgba(107, 107, 107, 0.6);
+font-family: 'Manrope', sans-serif;
+
+  }
+
+  .box_container{
+      position: relative;
+      top: -100px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100vw;
+      justify-content: center;
+  }
+
+  .box{
+    border: 1px solid rgb(133, 133, 133);
+  width: 380px;
+  margin:10px;
+  height: 200px;    
+  color: white;
+
+  transition: 0.5s;
+  }
+
+
+  .box:hover{
+    box-shadow: -5px 30px 26px -16px rgba(146,146,146,0.75);
+    -webkit-box-shadow: -5px 30px 26px -16px rgba(146,146,146,0.75);
+    -moz-box-shadow: -5px 30px 26px -16px rgba(146,146,146,0.75);
+
+
+    transform:translateY(-10px);
+  }
+
+  .box_head{
+      display: flex;
+      
+  }
+
+  .head_icon{
+      width: 30%;
+
+  }
+
+  .head_icon i{
+      font-size: 46px;
+      padding-top: 10px;
+      padding-left: 30px;
+  }
+
+  .head_title{
+      width: 70%;
+      font-size: 23px;
+      padding: 6px;
+      padding-top: 20px;
+      padding-right: 30px;
+      font-weight: bolder;
+font-family: 'Manrope', sans-serif;
+
+
+  }
+
+
+  .box_body{
+      padding: 20px;
+      padding-top: 30px;
+      font-size: 18px;
+font-family: 'Manrope', sans-serif;
+
+  }
+
+  .footer{
+      border-top: 1px solid grey;
+      position: relative;
+      top:-20px;
+      width: fit-content;
+      margin: 1px auto;
+      color: rgb(190, 190, 190);
+      padding-top: 10px;
+      font-size: 20px;
+      letter-spacing: 2px;
+      word-spacing: 3px;
+font-family: 'Manrope', sans-serif;
+
+  }
+
+  @media (max-width:673px){
+      .intro_container{
+          flex-direction: column;
+      }
+      .intro_details{
+          width: 100%;
+      }
+      .trailer{
+          width: 100%;
+      }
+
+      .main-carousel{
+          width: 100vw;
+          height: 350px;
+      }
+      .quotation{
+        text-align: center;
+      }
+  }
