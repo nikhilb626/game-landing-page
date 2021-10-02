@@ -291,4 +291,15 @@ font-family: 'Manrope', sans-serif;
       .quotation{
         text-align: center;
       }
+
+      .points_to_note{
+          flex-direction: column;
+        
+      }
+      .points_right{
+          width: 100%;
+      }
+      .points_left{
+          width: 100%;
+      }
   }
